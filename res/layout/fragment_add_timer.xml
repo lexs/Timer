@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp">
+    
+    <LinearLayout android:id="@+id/pickers"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+        
+	    <NumberPicker android:id="@+id/hours"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp" />
+	    
+	    <NumberPicker android:id="@+id/minutes"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp" />
+	    
+	    <NumberPicker android:id="@+id/seconds"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp" />
+        
+    </LinearLayout>
+    
+    
+    
+    <EditText android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label" />
+    
+    <Button android:id="@+id/ringtone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ringtone" />
+    
+    <View android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <View android:id="@+id/divider"
+        style="@style/Widget.HorizontalDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="16dip"
+        android:layout_marginRight="16dip" />
+    
+    <Button android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Start" />
+    
+</LinearLayout>
+
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TimePicker android:id="@+id/time_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+    <EditText android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label" />
+    
+    <Button android:id="@+id/start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+</LinearLayout> -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Timer</string>
+    <string name="add_timer">Add timer</string>
+    <string name="default_label">Timer</string>
+    <string name="timer_notifiy_text">Select to dismiss timer</string>
+    <string name="incorrect_time">Please enter a value</string>
+    <!-- Menu -->
+    <string name="menu_cancel_all_title">Cancel all</string>
+    <string name="menu_settings_title">Settings</string>
+	<!-- Notification -->
+	<string name="notification_text_silenced">Timer silenced after %d minutes</string>
+	<string name="notification_title">Timer</string>
+	<string name="notification_ticker">Timer started</string>
+	<string name="notification_text_multiple"><xliff:g id="count">%d</xliff:g> timers running</string>
+	<string name="notification_text_0_minute">&lt; 1 minute remaining</string>
+	<plurals name="notification_text_minute">
+	    <item quantity="zero"></item>
+        <item quantity="one">1 minute remaining</item>
+        <item quantity="other">%d minutes remaining</item>
+    </plurals>
+   
+   	<plurals name="notification_text_hour">
+        <item quantity="one">1 hour remaining</item>
+        <item quantity="other">%d hours remaining</item>
+    </plurals>
+    <!-- Alert -->
+    <string name="timer_expired">Timer expired</string>
+    <string name="dismiss">Dismiss</string>
+</resources>

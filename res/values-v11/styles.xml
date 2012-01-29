@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Timer" parent="@android:style/Theme.Holo">
+    </style>
+    
+    <style name="Widget.HorizontalDivider" parent="@android:style/Widget">
+         <item name="android:background">?android:attr/dividerHorizontal</item>
+     </style>
+
+    <!-- NOTE: This must be a fullscreen theme, or else the fullscreen alarm will 
+         be unable to turn the screen on. -->
+    <style name="TimerAlertFullScreenTheme" parent="android:Theme.Holo.Wallpaper.NoTitleBar" />
+
+</resources>

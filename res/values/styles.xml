@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Timer" parent="@android:style/Theme">
+    </style>
+    
+     <style name="Widget.HorizontalDivider" parent="@android:style/Widget">
+         <item name="android:background">?android:attr/listDivider</item>
+     </style>
+    
+    <!-- This theme is similar to the Theme.Dialog.Alert but does not rely on a
+         non-public resource. -->
+    <style name="TimerAlertTheme" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- NOTE: This must be a fullscreen theme, or else the fullscreen alarm will 
+         be unable to turn the screen on. -->
+    <style name="TimerAlertFullScreenTheme" parent="android:Theme.Wallpaper.NoTitleBar" />
+
+</resources>

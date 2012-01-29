@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="right">
+        
+        <TextView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:padding="3dp"
+	    	android:paddingLeft="7dp"
+	    	android:paddingRight="7dp"
+	    	android:background="#9ac000"
+	    	android:textAppearance="?android:attr/textAppearanceSmall"
+	    	android:textSize="10dp"
+	    	android:textColor="@android:color/white"
+	    	android:text="running" />
+        
+        <TextView android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:padding="3dp"
+	    	android:paddingLeft="7dp"
+	    	android:paddingRight="7dp"
+	    	android:background="#f24140"
+	    	android:textAppearance="?android:attr/textAppearanceSmall"
+	    	android:textSize="10dp"
+	    	android:textColor="@android:color/white"
+	    	android:text="overdue" />
+        
+    </LinearLayout>
+
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    android:layout_gravity="center_vertical"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="16dip"
+	    android:paddingRight="16dip" >
+
+	   <se.oddcode.timer.view.CountdownView android:id="@+id/time_left"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	   <TextView android:id="@+id/label"
+	       android:layout_width="0dp"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1"
+	       android:gravity="right"
+	       android:paddingLeft="8dp"
+	       android:singleLine="true"
+	       android:textAppearance="?android:attr/textAppearanceSmall"
+	       android:textColor="?android:attr/textColorSecondary"
+	       android:textStyle="bold" />
+	   
+	</LinearLayout>
+	   
+</FrameLayout>  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingLeft="16dip"
+    android:paddingRight="16dip"
+    android:gravity="center_vertical" >
+    
+   <se.oddcode.timer.view.CountdownView android:id="@+id/time_left"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium" />
+
+   <TextView android:id="@+id/label"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:gravity="right"
+       android:paddingLeft="8dp"
+       android:singleLine="true"
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:textColor="?android:attr/textColorSecondary"
+       android:textStyle="bold" />
+
+</LinearLayout>
